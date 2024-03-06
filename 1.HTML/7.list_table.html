@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th,td,table{
+            border-collapse: collapse;
+            padding : 1em;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!-- alt shift down  ul-> disc , square , circle  ol -> a,A,i,I,1 -->
+    <ul type="circle">
+        <li>Boil Water</li>
+        <li>Add maggie</li>
+        <li>Add some vaggie
+            <ol type="1" >
+                <li>tomato </li>
+                <li>carrot</li>
+                <li>capsicum</li>
+                <li>corn</li>
+            </ol>
+        </li>
+        <li>And cook it for 2 minutes</li>
+    </ul>
+
+    <table >
+        <caption>Data</caption>
+        <thead >
+            <tr>
+                <th>Name</th>
+                <th>Marks</th>
+                <th>Pass/Fail</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>raj</td>
+                <td>43</td>
+                <td>pass</td>
+                <td rowspan="2">A1</td>
+            </tr>
+            <tr>
+                <td>ram</td>
+                <td>545</td>
+                <td>pass</td>
+            </tr>
+            <tr>
+                <td>raku</td>
+                <td>33435</td>
+                <td>fail</td>
+                <td>B3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">
+                    Overall good Result
+                </th>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
